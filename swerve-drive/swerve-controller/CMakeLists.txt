@@ -1,6 +1,8 @@
 cmake_minimum_required(VERSION 3.22)
 project(swerve_controller)
 
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
+
 if (POLICY CMP0167)
     cmake_policy(SET CMP0167 NEW)
 endif ()
